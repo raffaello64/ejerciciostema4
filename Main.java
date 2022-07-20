@@ -1,15 +1,12 @@
-package do_while;
+package For;
 
 public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-        int contador = 3;
-        
-        do {
-        	System.out.println(contador);
-        	contador = contador ++;
-        } while (contador > 3);
+		for (int numeroFor = 0; numeroFor <= 3; numeroFor = numeroFor + 1) {
+        	System.out.println(numeroFor);
+        } 
 	}
 
 }
